@@ -8,7 +8,7 @@ class Odometer extends React.Component {
         }
     }
     //
-    // DRY this all out ...
+    // TODO: DRY this all out ...
     //
     decrement_1() {
         let newValue = this.state.speed - 1
